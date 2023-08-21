@@ -8,6 +8,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= base_url('public/css/bootstrap.min.css') ?>" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.23/datatables.min.css" />
+
+    <script src="<?= base_url('public/js/jquery.min.js') ?>"></script>
 </head>
 
 <body>

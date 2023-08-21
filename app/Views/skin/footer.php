@@ -3,8 +3,9 @@
 </footer>
 
 <!-- Jquery dan Bootsrap JS -->
-<script src="<?= base_url('public/js/jquery.min.js') ?>"></script>
 <script src="<?= base_url('public/js/bootstrap.min.js') ?>"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.23/datatables.min.js"></script>
+
 
 </body>
 

@@ -35,7 +35,7 @@ abstract class BaseController extends Controller
      *
      * @var array
      */
-    protected $helpers = ['function'];
+    protected $helpers = ['function', 'url', 'form'];
 
     /**
      * Be sure to declare properties for any property fetch you initialized.
@@ -50,6 +50,7 @@ abstract class BaseController extends Controller
     {
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
+        $this->db = db_connect();
 
         // Preload any models, libraries, etc, here.
 
